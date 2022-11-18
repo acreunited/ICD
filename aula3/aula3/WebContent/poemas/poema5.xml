@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!-- Eng. P. Filipe !-->
+<?xml-stylesheet type="text/xsl" href="../xml/poema_xml_to_html.xsl"?>
+<poema xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<autor>Manuel Barbosa du Bocage</autor>
+	<título>Soneto Ditado na Agonia</título>
+	<estrofe>
+		<verso>Já Bocage não sou!... À cova escura</verso>
+		<verso>Meu estro vai parar desfeito em vento...</verso>
+		<verso>Eu aos Céus ultrajei! O meu tormento</verso>
+		<verso>Leve me torne sempre a terra dura;</verso>
+	</estrofe>
+	<estrofe>
+		<verso>Conheço agora já quão vã figura,</verso>
+		<verso>Em prosa e verso fez meu louco intento:</verso>
+		<verso>Musa!... Tivera algum merecimento</verso>
+		<verso>Se um raio da razão seguisse pura.</verso>
+	</estrofe>
+	<estrofe>
+		<verso>Eu me arrependo; a língua quasi fria</verso>
+		<verso>Brade em alto pregão à mocidade,</verso>
+		<verso>Que atrás do som fantástico corria:</verso>
+	</estrofe>
+	<estrofe>
+		<verso>Outro Aretino fui... a santidade</verso>
+		<verso>Manchei!... Oh! Se me creste, gente ímpia,</verso>
+		<verso>Rasga meus versos, crê na eternidade!.</verso>
+	</estrofe>
+</poema>

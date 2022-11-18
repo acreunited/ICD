@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="iso-8859-1" standalone="yes" ?>
+<packs xmlns:xi="http://www.w3.org/2001/XInclude">      
+    <pack name="exemplo">
+        <xi:include href="WebContent/exemplo/outroDoc.xml" />
+    </pack>
+</packs>

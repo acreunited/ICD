@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!-- Eng. P. Filipe !-->
+<?xml-stylesheet type="text/xsl" href="../xml/poema_xml_to_html.xsl"?>
+<poema xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<autor>Fernando Pessoa</autor>
+	<título>Liberdade</título>
+	<estrofe>
+		<verso>Ai que prazer</verso>
+		<verso>Não cumprir um dever,</verso>
+		<verso>Ter um livro para ler</verso>
+		<verso>E não fazer!</verso>
+		<verso>Ler é maçada,</verso>
+		<verso>Estudar é nada.</verso>
+		<verso>Sol doira</verso>
+		<verso>Sem literatura</verso>
+		<verso>O rio corre, bem ou mal,</verso>
+		<verso>Sem edição original.</verso>
+		<verso>E a brisa, essa,</verso>
+		<verso>De tão naturalmente matinal,</verso>
+		<verso>Como o tempo não tem pressa...</verso>
+	</estrofe>
+	<estrofe>
+		<verso>Livros são papéis pintados com tinta.</verso>
+		<verso>Estudar é uma coisa em que está indistinta</verso>
+		<verso>A distinção entre nada e coisa nenhuma.</verso>
+	</estrofe>
+	<estrofe>
+		<verso>Quanto é melhor, quanto há bruma,</verso>
+		<verso>Esperar por D.Sebastião,</verso>
+		<verso>Quer venha ou não!</verso>
+	</estrofe>
+	<estrofe>
+		<verso>Grande é a poesia, a bondade e as danças...</verso>
+		<verso>Mas o melhor do mundo são as crianças,</verso>
+	</estrofe>
+	<estrofe>
+		<verso>Flores, música, o luar, e o sol, que peca</verso>
+		<verso>Só quando, em vez de criar, seca</verso>
+	</estrofe>
+	<estrofe>
+		<verso>Mais que isto</verso>
+		<verso>É Jesus Cristo,</verso>
+		<verso>Que não sabia nada de finanças</verso>
+		<verso>Nem consta que tivesse biblioteca...</verso>
+	</estrofe>
+</poema>

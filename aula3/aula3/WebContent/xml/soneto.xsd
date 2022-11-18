@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!--P. Filipe -->
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+	<xs:simpleType name="T_nome">
+		<xs:restriction base="xs:string">
+			<xs:pattern value="[A-Z|ÁÀÃÂÉÈÍÌÒÓÕÔÙÚ][a-z|áàãâéèíìóòõôúùç]{1,30}((\s(d'|((da|de|do|dos|e)\s))?)[A-Z|ÁÀÃÂÉÈÍÌÒÓÕÔÙÚ][a-z|áàãâéèíìóòõôúùç]{1,30})?"/>
+		</xs:restriction>
+	</xs:simpleType>
+	<xs:complexType name="T_terceto">
+		<xs:sequence>
+			<xs:element ref="verso" minOccurs="3" maxOccurs="3"/>
+		</xs:sequence>
+	</xs:complexType>
+	<xs:complexType name="T_quadra">
+		<xs:sequence>
+			<xs:element ref="verso" minOccurs="4" maxOccurs="4"/>
+		</xs:sequence>
+	</xs:complexType>
+	<xs:complexType name="T_poema">
+		<xs:sequence>
+			<xs:element ref="autor"/>
+			<xs:element ref="título"/>
+			<xs:element ref="quadra" minOccurs="2" maxOccurs="2"/>
+			<xs:element ref="terceto" minOccurs="2" maxOccurs="2"/>
+		</xs:sequence>
+	</xs:complexType>
+	<xs:element name="verso" type="xs:string"/>
+	<xs:element name="título" type="xs:string"/>
+	<xs:element name="terceto" type="T_terceto"/>
+	<xs:element name="quadra" type="T_quadra"/>
+	<xs:element name="poema" type="T_poema"/>
+	<xs:element name="autor" type="T_nome"/>
+</xs:schema>

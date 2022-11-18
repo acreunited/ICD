@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="ISO-8859-1" standalone="no"?>
+<poema>
+	<autor>Fernando Pessoa</autor>
+	<título>Eu amo tudo o que foi</título>
+	<estrofe>
+		<verso>Eu amo tudo o que foi,</verso>
+		<verso>Tudo o que já não é,</verso>
+		<verso>A dor que já me não dói,</verso>
+		<verso>A antiga e errónea fé,</verso>
+	</estrofe>
+	<estrofe>
+		<verso>O ontem que dor deixou,</verso>
+		<verso>O que deixou alegria</verso>
+		<verso>Só porque foi, e voou</verso>
+		<verso>E hoje é já outro dia.</verso>	</estrofe>
+<!--
+Submitted by (a95-94-149-133.cpe.netcabo.pt/Socket[addr=/95.94.149.133,port=80,localport=63221])
+
+From file (Eu_amo_tudo.xml)
+--></poema>

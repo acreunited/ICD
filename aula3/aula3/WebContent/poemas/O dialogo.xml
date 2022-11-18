@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<poema xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="poema.xsd">
+	<autor>Bando dos Quatro</autor>
+    <título>O dialogo</título>
+	<estrofe>
+		<verso>O stor tava a filmar</verso>
+		<verso>e eu tou com vontade de ir fumar</verso>
+		<verso>e as quatro vou bazar</verso>
+		<verso>pensando melhor acho que vou arrancar</verso>
+	</estrofe>
+	<estrofe>
+		<verso>Nao sei o que fazer</verso>
+		<verso>nem sei o que estou a ler</verso>
+		<verso>o xml nao abre</verso>
+		<verso>vou ter que o reescrever</verso>
+	</estrofe>
+	<estrofe>
+		<verso>Estamos aqui em IECD</verso>
+		<verso>a escrever um poema que nao se lê</verso>
+		<verso>amanha é quinta feira</verso>
+		<verso>e vou apanhar uma bubadeira</verso>
+	</estrofe>
+	<estrofe>
+		<verso>O Gonçaalo tem pastilha na prata</verso>
+		<verso>e ele esta com uma dama que nao lhe tira a pata</verso>
+		<verso>rata</verso>
+	</estrofe>
+	<estrofe>
+		<verso>Deixa-mos aqui escrito este poema</verso>
+		<verso>em prolo de um grande dilema</verso>
+		<verso>sabemos que IASA vai dar problema</verso>
+		<verso>mas até à quinta semana</verso>
+		<verso>nao há drena</verso>
+	</estrofe>
+</poema>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!-- P. Filipe -->
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+	<xs:simpleType name="T_Nome">
+		<xs:restriction base="xs:string">
+			<xs:pattern value="[A-Z|ÁÀÃÂÉÈÍÌÒÓÕÔÙÚ][a-z|áàãâéèíìóòõôúùç]{1,30}((\s(d'|((da|de|do|dos)\s))?)[A-Z|ÁÀÃÂÉÈÍÌÒÓÕÔÙÚ][a-z|áàãâéèíìóòõôúùç]{1,30})?"/>
+		</xs:restriction>
+	</xs:simpleType>
+	<xs:complexType name="T_poema">
+		<xs:sequence>
+			<xs:element ref="autor"/>
+			<xs:element ref="título"/>
+			<xs:element name="estrofe" minOccurs="1" maxOccurs="10">
+				<xs:complexType>
+					<xs:sequence>
+						<xs:element name="verso" type="xs:string" minOccurs="1" maxOccurs="10"/>
+					</xs:sequence>
+				</xs:complexType>
+			</xs:element>
+		</xs:sequence>
+	</xs:complexType>
+	<xs:element name="título" type="xs:string"/>
+	<xs:element name="poema" type="T_poema"/>
+	<xs:element name="autor" type="T_Nome"/>
+</xs:schema>

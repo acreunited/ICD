@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<poema xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="poema.xsd">
+	<autor>Fernando Pessoa</autor>
+	<título>Os Colombos</título>
+	<estrofe>
+		<verso>Outros haverão de ter</verso>
+		<verso>O que houvermos de perder.</verso>
+		<verso>Outros poderão achar</verso>
+		<verso>O que, no nosso encontrar,</verso>
+		<verso>Foi achado, ou não achado,</verso>
+		<verso>Segundo o destino dado.</verso>
+	</estrofe>
+	<estrofe>
+		<verso>Mas o que a eles não toca</verso>
+		<verso>É a Magia que evoca</verso>
+		<verso>O Longe e faz dele história.</verso>
+		<verso>E por isso a sua glória</verso>
+		<verso>É justa auréola dada</verso>
+		<verso>Por uma luz emprestada.</verso>
+	</estrofe>
+</poema>

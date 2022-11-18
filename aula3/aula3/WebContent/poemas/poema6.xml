@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!-- Eng. P. Filipe !-->
+<?xml-stylesheet type="text/xsl" href="../xml/poema_xml_to_html.xsl"?>
+<poema xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<autor>Luís de Camões</autor>
+	<título>Cantiga</título>
+	<estrofe>
+		<verso>Descalça vai para a fonte</verso>
+		<verso>Leonor, pela verdura;</verso>
+		<verso>vai formosa e não segura.</verso>
+	</estrofe>
+	<estrofe>
+		<verso>Leva na cabeça o pote,</verso>
+		<verso>o testo nas mãos de prata,</verso>
+		<verso>cinta de fina escarlata,</verso>
+		<verso>sainho de chamalote;</verso>
+		<verso>traz a vasquinha de cote,</verso>
+		<verso>mais branca que a neve pura;</verso>
+		<verso>vai formosa e não segura.</verso>
+	</estrofe>
+	<estrofe>
+		<verso>Descobre a touca a garganta,</verso>
+		<verso>cabelos de ouro o trançado,</verso>
+		<verso>fita de cor de encarnado...</verso>
+		<verso>tão linda que o mundo espanta!</verso>
+		<verso>chove nela graça tanta</verso>
+		<verso>que dá graça à formosura;</verso>
+		<verso>vai formosa, e não segura.</verso>
+	</estrofe>
+</poema>

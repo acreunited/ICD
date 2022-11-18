@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<poema xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="poema.xsd">
+	<autor>Fernando Pessoa</autor>
+	<título>Mar Português</título>
+	<estrofe>
+		<verso>Ó mar salgado, quanto do teu sal</verso>
+		<verso>São lágrimas de Portugal!</verso>
+		<verso>Por te cruzarmos, quantas mães choraram,</verso>
+		<verso>Quantos filhos em vão rezaram!</verso>
+		<verso>Quantas noivas ficaram por casar</verso>
+		<verso>Para que fosses nosso, ó mar!</verso>
+	</estrofe>
+	<estrofe>
+		<verso>Valeu a pena? Tudo vale a pena</verso>
+		<verso>Se a alma não é pequena.</verso>
+		<verso>Quem quer passar além do Bojador</verso>
+		<verso>Tem que passar além da dor.</verso>
+		<verso>Deus ao mar o perigo e o abismo deu,</verso>
+		<verso>Mas nele é que espelhou o céu.</verso>
+	</estrofe>
+</poema>

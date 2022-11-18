@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--W3C Schema versão simples by Porfírio Filipe -->
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+	<xs:element name="poema">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element name="autor" type="xs:string"/>
+				<xs:element name="título" type="xs:string"/>
+				<xs:element name="estrofe" maxOccurs="10">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="verso" type="xs:string" maxOccurs="10"/>
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+</xs:schema>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<poema xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="poema.xsd">
+<autor>Fernando Pessoa</autor>
+<título>Comboio Descendente</título>
+<estrofe>
+<verso>No comboio descendente</verso>
+<verso>Vinha tudo à gargalhada,</verso>
+<verso>Uns por verem rir os outros</verso>
+<verso>E os outros sem ser por nada —</verso>
+<verso>No comboio descendente</verso>
+<verso>De Queluz à Cruz Quebrada...</verso>
+</estrofe>
+<estrofe>
+<verso>No comboio descendente</verso>
+<verso>Vinham todos à janela,</verso>
+<verso>Uns calados para os outros</verso>
+<verso>E os outros a dar-lhes trela —</verso>
+<verso>No comboio descendente</verso>
+<verso>Da Cruz Quebrada a Palmela...</verso>
+</estrofe>
+<estrofe>
+<verso>No comboio descendente</verso>
+<verso>Mas que grande reinação!</verso>
+<verso>Uns dormindo, outros com sono,</verso>
+<verso>E os outros nem sim nem não —</verso>
+<verso>No comboio descendente</verso>
+<verso>De Palmela a Portimão...</verso>
+</estrofe>
+</poema>
+

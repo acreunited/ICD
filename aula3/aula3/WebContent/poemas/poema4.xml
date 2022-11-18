@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!-- Eng. P. Filipe !-->
+<?xml-stylesheet type="text/xsl" href="../xml/poema_xml_to_html.xsl"?>
+<poema xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<autor>Manuel Maria Barbosa du Bocage</autor>
+	<título>Camões, Grande Camões, quão Semelhante</título>
+	<estrofe>
+		<verso>Camões, grande Camões, quão semelhante</verso>
+		<verso>Acho teu fado ao meu, quando os cotejo!</verso>
+		<verso>Igual causa nos fez, perdendo o Tejo, </verso>
+		<verso>Arrostar co'o sacrílego gigante;</verso>
+	</estrofe>
+	<estrofe>
+		<verso>Como tu, junto ao Ganges sussurrante,</verso>
+		<verso>Da penúria cruel no horror me vejo;</verso>
+		<verso>Como tu, gostos vãos, que em vão desejo,</verso>
+		<verso>Também carpindo estou, saudoso amante.</verso>
+	</estrofe>
+	<estrofe>
+		<verso>Ludíbrio, como tu, da Sorte dura</verso>
+		<verso>Meu fim demando ao Céu, pela certeza</verso>
+		<verso>De que só terei paz na sepultura.</verso>
+	</estrofe>
+	<estrofe>
+		<verso>Modelo meu tu és, mas... oh, tristeza!... </verso>
+		<verso>Se te imito nos transes da Ventura,</verso>
+		<verso>Não te imito nos dons da Natureza.</verso>
+	</estrofe>
+</poema>

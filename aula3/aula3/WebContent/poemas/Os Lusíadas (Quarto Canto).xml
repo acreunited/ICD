@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<poema xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="poema.xsd">
+	<autor>Luís de Camões</autor>
+	<título>Os Lusíadas (quarto canto)</título>
+	<estrofe>
+		<verso>DESPOIS de procelosa tempestade,</verso>
+		<verso>Nocturna sombra e sibilante vento,</verso>
+		<verso>Traz a manha serena claridade,</verso>
+		<verso>Esperança de porto e salvamento;</verso>
+		<verso>Aparta o Sol a negra escuridade,</verso>
+		<verso>Removendo o temor ao pensamento:</verso>
+		<verso>Assi no Reino forte aconteceu</verso>
+		<verso>Despois que o Rei Fernando faleceu.</verso>
+	</estrofe>
+	<estrofe>
+		<verso>Porque, se muito os nossos desejaram</verso>
+		<verso>Quem os danos e ofensas vão vingando</verso>
+		<verso>Naqueles que tão bem se aproveitaram</verso>
+		<verso>Do descuido remisso de Fernando,</verso>
+		<verso>Despois de pouco tempo o alcançaram,</verso>
+		<verso>Joane, sempre ilustre, alevantando</verso>
+		<verso>Por Rei, como de Pedro único herdeiro</verso>
+		<verso>(Ainda que bastardo) verdadeiro.</verso>
+	</estrofe>
+	<estrofe>
+		<verso>Ser isto ordenação dos Céus divina</verso>
+		<verso>Por sinais muito claros se mostrou,</verso>
+		<verso>Quando em Évora a voz de ua minina,</verso>
+		<verso>Ante tempo falando, o nomeou.</verso>
+		<verso>E, como cousa, enfim, que o Céu destina,</verso>
+		<verso>No berço o corpo e a voz alevantou:</verso>
+		<verso>-«Portugal, Portugal (alçando a mão,</verso>
+		<verso>Disse) polo Rei novo, Dom João!»</verso>
+	</estrofe>
+</poema>

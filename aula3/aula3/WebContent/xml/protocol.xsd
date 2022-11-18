@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!--  Autor: Porfírio Filipe -->
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+	<xs:include schemaLocation="poema.xsd"/>
+	<xs:element name="protocol">
+		<xs:complexType>
+			<xs:choice>
+				<xs:element name="listar">
+					<xs:annotation>
+						<xs:documentation>Lista os títulos dos poemas</xs:documentation>
+					</xs:annotation>
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="request">
+								<xs:complexType/>
+							</xs:element>
+							<xs:element name="reply" minOccurs="1">
+								<xs:complexType>
+									<xs:choice>
+										<xs:element name="título" type="xs:string" minOccurs="0" maxOccurs="unbounded"/>
+									</xs:choice>
+								</xs:complexType>
+							</xs:element>
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+				<xs:element name="consultar">
+					<xs:annotation>
+						<xs:documentation>Consulta o poema que tem o título indicado</xs:documentation>
+					</xs:annotation>
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="request">
+								<xs:complexType>
+									<xs:sequence>
+										<xs:element name="título"/>
+									</xs:sequence>
+								</xs:complexType>
+							</xs:element>
+							<xs:element name="reply">
+								<xs:complexType>
+									<xs:choice>
+										<xs:element name="poema" type="T_poema" minOccurs="0" maxOccurs="1"/>
+									</xs:choice>
+								</xs:complexType>
+							</xs:element>
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+				<xs:element name="obter">
+					<xs:annotation>
+						<xs:documentation>Obtem até 3 poemas com as palavras (max 5) indicadas</xs:documentation>
+					</xs:annotation>
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="request">
+								<xs:complexType>
+									<xs:sequence>
+										<xs:element name="palavra" type="xs:string" maxOccurs="5"/>
+									</xs:sequence>
+								</xs:complexType>
+							</xs:element>
+							<xs:element name="reply" minOccurs="1">
+								<xs:complexType>
+									<xs:choice>
+										<xs:element name="poema" type="T_poema" minOccurs="0" maxOccurs="3"/>
+									</xs:choice>
+								</xs:complexType>
+							</xs:element>
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+				<xs:element name="submeter">
+					<xs:annotation>
+						<xs:documentation>Submete um poema para ser  guardado no servidor</xs:documentation>
+					</xs:annotation>
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="request">
+								<xs:complexType>
+									<xs:sequence>
+										<xs:element name="poema" type="T_poema"/>
+									</xs:sequence>
+								</xs:complexType>
+							</xs:element>
+							<xs:element name="reply">
+								<xs:complexType>
+									<xs:choice>
+										<xs:element name="sucesso" minOccurs="0"/>
+										<xs:element name="erro" minOccurs="0"/>
+									</xs:choice>
+								</xs:complexType>
+							</xs:element>
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+			</xs:choice>
+		</xs:complexType>
+	</xs:element>
+</xs:schema>

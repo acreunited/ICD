@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<poema xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="poema.xsd">
+	<autor>William Ernest Henley</autor>
+    <título>Invictus</título>	
+	<estrofe>
+		<verso>Out of the night that covers me,</verso>
+		<verso>Black as the Pit from pole to pole,</verso>
+		<verso>I thank whatever gods may be</verso>
+		<verso>For my unconquerable soul.</verso>
+	</estrofe>
+	<estrofe>
+		<verso>In the fell clutch of circumstance</verso>
+		<verso>I have not winced nor cried aloud.</verso>
+		<verso>Under the bludgeonings of chance</verso>
+		<verso>My head is bloody, but unbowed.</verso>
+	</estrofe>
+	<estrofe>
+		<verso>Beyond this place of wrath and tears</verso>
+		<verso>Looms but the Horror of the shade,</verso>
+		<verso>And yet the menace of the years</verso>
+		<verso>Finds, and shall find, me unafraid.</verso>
+	</estrofe>
+	<estrofe>
+		<verso>It matters not how strait the gate,</verso>
+		<verso>How charged with punishments the scroll,</verso>
+		<verso>I am the master of my fate:</verso>
+		<verso>I am the captain of my soul.</verso>
+	</estrofe>
+</poema>

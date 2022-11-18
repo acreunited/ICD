@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="ISO-8859-1" standalone="no"?>
+<poema>
+	<autor>Florbela Espanca</autor>
+	<título>Realidade</título>
+	<estrofe>
+		<verso>Em ti o meu olhar fez-se alvorada,</verso>
+		<verso>E a minha voz fez-se gorjeio de ninho,</verso>
+		<verso>E a minha rubra boca apaixonada</verso>
+		<verso>Teve a frescura pálida do linho.</verso>
+	</estrofe>
+	<estrofe>
+		<verso>Embriagou-me o teu beijo como um vinho</verso>
+		<verso>Fulvo de Espanha, em taça cinzelada,</verso>
+		<verso>E a minha cabeleira desatada</verso>
+		<verso>Pôs a teus pés a sombra dum caminho.</verso>
+	</estrofe>
+	<estrofe>
+		<verso>Minhas pálpebras são cor de verbena,</verso>
+		<verso>Eu tenho os olhos garços, sou morena,</verso>
+		<verso>E para te encontrar foi que eu nasci...</verso>
+	</estrofe>
+	<estrofe>
+		<verso>Tens sido vida fora o meu desejo,</verso>
+		<verso>E agora, que te falo, que te vejo,</verso>
+		<verso>Não sei se te encontrei, se te perdi...</verso>
+	</estrofe>
+<!--
+Submitted by (PFHP7.local/Socket[addr=localhost/127.0.0.1,port=5025,localport=50508])
+
+From file (poema2.xml)
+--></poema>
